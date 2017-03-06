@@ -1,0 +1,10 @@
+title: Athena Project
+email: webcom@ucf.edu
+description: >
+    Documentation site for the various Athena Project products.
+baseurl: ""
+sass:
+    sass_dir: _sass
+include: ['_pages']
+kramdown:
+    input: GFM
