@@ -1,5 +1,5 @@
 .header {
-    @include gradient-directional($ucf-gold, $ucf-gold-lightest, 165deg);
+    @include gradient-directional($ucf-gold, $ucf-gold-lighter, 165deg);
     color: $black;
     padding: 4rem 0;
 }
