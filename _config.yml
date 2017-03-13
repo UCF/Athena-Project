@@ -5,6 +5,9 @@ description: >
 baseurl: ""
 sass:
     sass_dir: _sass
+    style: compressed
+    outfile: assets/css/main.css
 include: ['_pages']
+exclude: ['node_modules', 'gulpfile.js', 'package.json']
 kramdown:
     input: GFM
