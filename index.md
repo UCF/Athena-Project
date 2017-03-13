@@ -3,7 +3,7 @@ layout: default
 title: Athena Project
 subtitle: UCF's Web Brand Toolkit
 ---
-{:.text-center .text-primary .text-uppercase .letter-spacing-1 .mt-5}
+{:.text-center .text-uppercase .letter-spacing-1 .mt-5}
 ## What is the Athena Project?
 
 {:.text-center .lead .w-75 .mx-auto .mb-5}
