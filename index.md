@@ -3,10 +3,10 @@ layout: default
 title: Athena Project
 subtitle: UCF's Web Brand Toolkit
 ---
-{:.text-center .text-primary .text-uppercase .letter-spacing-1}
+{:.text-center .text-primary .text-uppercase .letter-spacing-1 .mt-5}
 ## What is the Athena Project?
 
-{:.text-center .lead .w-75 .mx-auto .mb-4}
+{:.text-center .lead .w-75 .mx-auto .mb-5}
 The Athena Project is an effort to develop a suite of branded web tools for UCF communicators and developers.
 
 {:.text-center .text-uppercase .letter-spacing-1 .mb-4}
