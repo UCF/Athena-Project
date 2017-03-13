@@ -2,11 +2,17 @@
 <html lang="en-us">
 {% include head.html %}
 <body>
+    <header class="header">
+        <div class="container">
+            <h1 class="text-center font-condensed">{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <p class="text-center lead">{{ page.subtitle }}</p>
+            {% endif %}
+        </div>
+    </header>
     <main>
-        <article>
-            <div class="container">
-                {{ content }}
-            </div>
+        <article class="py-4 container">
+            {{ content }}
         </article>
     </main>
     {% include footer.html %}
