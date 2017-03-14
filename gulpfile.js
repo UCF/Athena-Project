@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 
 var config = {
     scssPath: './_src',
-    cssPath: './assets'
+    cssPath: './assets/css'
 };
 
 gulp.task('bower', function() {
