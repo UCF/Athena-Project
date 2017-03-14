@@ -3,11 +3,13 @@ email: webcom@ucf.edu
 description: >
     Documentation site for the various Athena Project products.
 baseurl: ""
-sass:
-    sass_dir: _sass
-    style: compressed
-    outfile: assets/css/main.css
-include: ['_pages']
-exclude: ['node_modules', 'gulpfile.js', 'package.json']
-kramdown:
-    input: GFM
+markdown: kramdown
+gems:
+    - jekyll-feed
+exclude: 
+    - node_modules
+    - gulpfile.js
+    - package.json
+    - bower_components
+    - Gemfile
+    - Gemfile.lock

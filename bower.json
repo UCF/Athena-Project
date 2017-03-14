@@ -1,7 +1,7 @@
 {
-    "name": "athena-project",
-    "private": true,
-    "dependencies": {
-        "athena-framework": "https://github.com/UCF/Athena-Framework.git#master"
-    }
+  "name": "athena-project",
+  "private": true,
+  "dependencies": {
+    "athena-framework": "https://github.com/UCF/Athena-Framework.git#master"
+  }
 }

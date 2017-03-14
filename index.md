@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Athena Project
 subtitle: UCF's Web Brand Toolkit
 ---
