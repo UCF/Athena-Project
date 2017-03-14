@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html lang="en-us">
+{% include head.html %}
+<body>
+    <header class="header">
+        {% include navigation.html %}
+        <div class="container">
+            <h1 class="font-condensed mt-4">{{ page.title }}</h1>
+            {% if page.date %}
+            <p class="text-muted">{{ page.date | date: "%B %-d %Y" }}</p></div>
+            {% endif %}
+        </div>
+    </header>
+    <main class="container py-4">
+        <div class="row">
+            <article class="col-md-8">
+                {{ content }}
+            </article>
+            {% if site.related_posts %}
+            <aside class="col-md-4">
+                <h2>Related Posts</h2>
+                {{ site.related_posts }}
+            </aside>
+            {% endif %}
+        </div>
+    </main>
+    {% include footer.html %}
+</body>
+</html>
