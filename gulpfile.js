@@ -1,4 +1,3 @@
-
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     minifyCss = require('gulp-clean-css'),
@@ -13,16 +12,16 @@ var config = {
 };
 
 gulp.task('bower', function() {
-    return bower(); 
+    return bower();
 });
 
 gulp.task('scss', ['bower'], function() {
     gulp.src(config.scssPath + '/base.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(minifyCss({compatibility: 'ie8'}))
+        .pipe(minifyCss())
         .pipe(rename('main.css'))
         .pipe(autoprefixer({
-            browsers: ['last 2 versions', 'ie >= 8'],
+            browsers: ['last 2 versions'],
             cascade: false
         }))
         .pipe(gulp.dest(config.cssPath));
