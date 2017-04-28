@@ -15,7 +15,7 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
 
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-10 offset-md-1">
         <div class="card card-outline-primary mb-3">
             <div class="card-block">
                 <h2 class="card-title">Athena Framework</h2>
@@ -26,6 +26,8 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
             </div>
         </div>
     </div>
+</div>
+<div class="row">
     <div class="col-md-6">
         <div class="card card-outline-primary mb-3">
             <div class="card-block">
@@ -33,21 +35,6 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
                 <p class="badge badge-primary">Upcoming</p>
                 <p>A base theme for the popular blogging platform WordPress will be developed on top of the Athena Framework. The theme will come with a number of standard templates and layouts, with customization controlled through the Theme Customizr interface WordPress provides.</p>
                 <p>While there will likely continue to be themes developed for particular purposes, this theme should provide a firm foundation on which many sites can be built.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <div class="card card-outline-primary mb-3">
-            <div class="card-block">
-                <h2 class="card-title">TinyMCE Extension</h2>
-                <p class="badge badge-primary">Upcoming</p>
-                <p>The Athena TinyMCE extension will attempt to bring the power of the framework to the WordPress <abbr title="What you see is what you get">WYSIWYG</abbr>.</p>
-                <p>Standard styles will be reflected in the Visual Editor and class based styles will be made available through various toolbars.</p>
-                <div class="alert alert-info" role="alert">
-                    <p>The ultimate layout and functionality of this component will depend heavily on input from communicators and developers across campus.</p>
-                </div>
             </div>
         </div>
     </div>
