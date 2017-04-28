@@ -15,8 +15,8 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
 
 
 <div class="row">
-    <div class="col-md-10 offset-md-1">
-        <div class="card card-outline-primary mb-3">
+    <div class="col-md-5">
+        <div class="card card-outline-secondary mb-3">
             <div class="card-block">
                 <h2 class="card-title">Athena Framework</h2>
                 <p class="badge badge-success">In Progress</p>
@@ -26,10 +26,8 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
             </div>
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <div class="card card-outline-primary mb-3">
+    <div class="col-md-7">
+        <div class="card card-outline-secondary mb-3">
             <div class="card-block">
                 <h2 class="card-title">Athena WordPress Theme</h2>
                 <p class="badge badge-primary">Upcoming</p>
@@ -37,9 +35,7 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
                 <p>While there will likely continue to be themes developed for particular purposes, this theme should provide a firm foundation on which many sites can be built.</p>
             </div>
         </div>
-    </div>
-    <div class="col-md-6">
-        <div class="card card-outline-primary mb-3">
+        <div class="card card-outline-secondary mb-3">
             <div class="card-block">
                 <h2 class="card-title">Athena WordPress Plugin</h2>
                 <p class="badge badge-primary">Upcoming</p>
