@@ -20,7 +20,7 @@ The Athena Project is an effort to develop a suite of branded web tools for UCF 
             <div class="card-block">
                 <h2 class="card-title">Athena Framework</h2>
                 <p class="badge badge-success">In Progress</p>
-                <p>The Athena Framework makes up the base of the entire suite of tools. Based on <a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap 4</a>, the framework will include most of the funtionality developers and contents editors have come to expect of Bootstrap. The base bootstrap styles will be updated to conform to the UCF Brand by default, with additional varients for flexibility.</p>
+                <p>The Athena Framework makes up the base of the entire suite of tools. Based on <a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap 4</a>, the framework will include most of the functionality developers and content editors have come to expect of Bootstrap. The base Bootstrap styles will be updated to conform to the UCF Brand by default, with additional variants for flexibility.</p>
                 <p>For more information or to follow the development of the framework, visit the project's GitHub repository.</p>
                 <a href="https://github.com/UCF/Athena-Framework/" target="_blank" class="btn btn-primary">Visit on GitHub</a>
             </div>
