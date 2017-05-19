@@ -1,7 +1,7 @@
 .home {
   .header {
     @include gradient-directional($black, $gray-darker, 165deg);
-    color: $black;
-    padding: 4rem 0;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
   }
 }

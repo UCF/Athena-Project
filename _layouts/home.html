@@ -5,9 +5,9 @@
     {% include navigation.html %}
     <header class="header">
         <div class="container">
-            <h1 class="display-2 text-center text-primary font-condensed">{{ page.title }}</h1>
+            <h1 class="text-center text-white font-condensed mb-4">{{ page.title }}</h1>
             {% if page.subtitle %}
-            <div class="text-center"><p class="lead bg-primary d-inline-block px-4 py-2">{{ page.subtitle }}</p></div>
+            <div class="text-center"><span class="h5 badge badge-primary">{{ page.subtitle }}</span></div>
             {% endif %}
         </div>
     </header>
